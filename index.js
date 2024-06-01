@@ -10,5 +10,5 @@ else if (son % 5 === 0) {
     alert("Buzz")
 }
 else {
-
+    alert(son)
 }
