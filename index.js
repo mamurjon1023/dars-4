@@ -1,14 +1,14 @@
 let son = Number(prompt("Sonni kiriting"));
 
 if (son % 3 === 0 && son % 5 === 0) {
-    alert(`${son} - Fizzbuzz`)
+    alert(`${son} - Fizzbuzz`);
 }
 else if (son % 3 === 0) {
-    alert(`${son} - Fizz`)
+    alert(`${son} - Fizz`);
 }
 else if (son % 5 === 0) {
-    alert("Buzz")
+    alert(`${son} - Buzz`);
 }
 else {
-    alert(son)
+    alert(son);
 }
